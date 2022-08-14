@@ -6,9 +6,27 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.ETM_SHOW
+{
+  margin: 10px;
+  display: flex;
+}
+
+.TEMP
+{
+
+}
+
 a {
   color: inherit;
   text-decoration: none;
+  transition: all 0.2s;
+  font: icon;
+}
+
+a:hover
+{
+  opacity: 0.8;
 }
 
 * {
